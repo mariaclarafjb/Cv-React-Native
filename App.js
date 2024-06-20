@@ -7,47 +7,31 @@ import { Ionicons } from "@expo/vector-icons";
 function ProfileScreen() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Image source={require("./assets/Foto.jpeg")} style={styles.image} />
-      <Text style={styles.header}>Emesson Silva</Text>
+      <Image source={require("./assets/perfil-MC.jpeg")} style={styles.image} />
+      <Text style={styles.header}>Maria Clara Feijó</Text>
       <Text style={styles.subheader}>
-        Analysis and Systems Development Student
+      Análise e desenvolvimento de Sistemas
+      </Text>
+      <Text style={styles.subheader}>
+        Objetivo
+      </Text> <Text style={styles.subheader}>
+        Objetivo
       </Text>
       <Text style={styles.paragraph}>
-        Hi, I'm Emesson Silva, I'm 21 years old, I'm Analysis and Systems
-        Development Student and I live in the city of Recife - PE.
+      Meu objetivo é me desenvolver na área da tecnologia, tendo foco em programação e design para o desenvolvimento web, que de alguma forma minhas habilidades e conhecimentos possam transformar de alguma forma a vida de pessoas e funcionamentos de empresas.
       </Text>
       <Text style={styles.paragraph}>
         Technologies I've had experience with:
       </Text>
-      <Text style={styles.listItem}>
-        • Libraries and Frameworks: React, Angular, Flutter.
+      <Text style={styles.subheader}>
+        Habilidades
       </Text>
       <Text style={styles.listItem}>
-        • Programming languages: TypeScript, JavaScript, C, C#.
+        • Soft Skills: Criatividade, Comunicação, Trabalho em Equipe.
+     
+      <Text style={styles.listItem}>
+        • Programming languages: Python, C, JS, Lógica de Programação
       </Text>
-      <Text style={styles.listItem}>• Database: MySQL, MongoDB.</Text>
-      <Text style={styles.listItem}>• Development tools: Git, GitHub.</Text>
-      <Text style={styles.paragraph}>
-        I'm currently looking to enter the I.T. field, either through an
-        internship or another position, with a focus on web development, but I'm
-        not limited to this area and I'm always willing to learn.
-      </Text>
-      <Text style={styles.paragraph}>
-        You can check out my portfolio at {""}
-        <Text
-          style={styles.link}
-          onPress={() => Linking.openURL("https://emessonblog.netlify.app")}
-        >
-          emessonblog.netlify.app
-        </Text>{" "}
-        {""}
-        and explore my work on GitHub at {""}
-        <Text
-          style={styles.link}
-          onPress={() => Linking.openURL("https://github.com/emessonSilva")}
-        >
-          github.com/emessonSilva
-        </Text>
         .
       </Text>
     </ScrollView>
@@ -58,29 +42,7 @@ function ExperienceScreen() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.subheader}>
-        Bilingual Customer Support Agent at Speed+
-      </Text>
-      <Text style={styles.paragraph}>• Oct 2023 - Present</Text>
-      <Text style={styles.paragraph}>
-        • I work just on weekends at the company. There I handle customer
-        tickets for an app called Bolt Food (similar to IFood). The tickets can
-        be complaints, requests, etc. I answer in English or Portuguese.
-      </Text>
-      <Text style={styles.subheader}>
-        Technology Residency at Porto Digital
-      </Text>
-      <Text style={styles.paragraph}>• Mar 2023 - Present</Text>
-      <Text style={styles.paragraph}>
-        • During my degree in Analysis and Systems Development, I take part in
-        projects for real companies every semester.
-      </Text>
-      <Text style={styles.subheader}>DIO Campus Expert at DIO</Text>
-      <Text style={styles.paragraph}>• Mar 2024 - April 2024</Text>
-      <Text style={styles.paragraph}>
-        • I was one of those chosen for the seventh edition of the program,
-        which aims to train university leaders through mentoring and practical
-        activities, preparing students to inspire the next generation of tech
-        talent.
+        Ainda sem experiências.
       </Text>
     </ScrollView>
   );
@@ -90,14 +52,10 @@ function EducationScreen() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.subheader}>
-        Degree in Analysis and Systems Development
+      Análise e desenvolvimento de Sistemas
       </Text>
       <Text style={styles.paragraph}>
-        Secac Pernambuco College, Mar 2023 - Present.
-      </Text>
-      <Text style={styles.subheader}>Accelerated Training in Programming</Text>
-      <Text style={styles.paragraph}>
-        Softex Pernambuco, Jun 2023 - Jan 2024.
+      Faculdade Senac Pernambuco | Início: Março 2023 - Atual 
       </Text>
     </ScrollView>
   );

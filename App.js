@@ -14,8 +14,6 @@ function ProfileScreen() {
       </Text>
       <Text style={styles.subheader}>
         Objetivo
-      </Text> <Text style={styles.subheader}>
-        Objetivo
       </Text>
       <Text style={styles.paragraph}>
       Meu objetivo é me desenvolver na área da tecnologia, tendo foco em programação e design para o desenvolvimento web, que de alguma forma minhas habilidades e conhecimentos possam transformar de alguma forma a vida de pessoas e funcionamentos de empresas.
